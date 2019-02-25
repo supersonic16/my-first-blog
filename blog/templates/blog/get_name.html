@@ -1,0 +1,19 @@
+{% include "base.html" %}
+{% block title %}
+  Add Name
+{% endblock %}
+
+{% block content %}
+<h2>Add a new name</h2>
+
+<form action="" method="post">
+  {% csrf_token %}
+  <table>
+    {{ form.as_p }}
+    <tr>
+      <td></td>
+      <td><input type="submit"></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}

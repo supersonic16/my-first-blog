@@ -1,0 +1,64 @@
+body{
+  background-color: #f2f2f2;
+}
+.color-white{
+  background-color: white;
+  }
+.h1{
+  font-family: Merriweather, sans-serif;
+  font-weight: 300;
+}
+.top-buffer{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+.h1{
+  margin: inherit;
+}
+.jumbotron{
+  background-size: cover;
+  background-image: url(architecture.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+/* header */
+header{
+  margin: auto;
+  width: 100%;
+  display: block;
+  position: sticky;
+  z-index: 1000;
+}
+.navbar-brand{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  }
+.navbar{
+  background-color: white;
+  padding: 0px;
+  padding-left: 20px;
+}
+.navbar a{
+  color: white;
+}
+.nav-item{
+  background-color: white;
+  font-size: 15px;
+}
+.collapse{
+  background-color: white;
+}
+/* footer */
+
+.footer{
+  background: black;
+}
+
+/* media queries */
+@media screen and (max-width: 600px){
+  .con{
+    margin-left: 30px;
+  }
+}
